@@ -10,6 +10,7 @@
 		0016ADAD1AD6B91000B4054D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016ADAC1AD6B91000B4054D /* DataController.swift */; };
 		003DD17B1AD701CF00D65B56 /* USDAItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003DD17A1AD701CF00D65B56 /* USDAItem.swift */; };
 		003DD17D1ADC18E700D65B56 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003DD17C1ADC18E700D65B56 /* HealthKit.framework */; };
+		003DD1801ADC21F100D65B56 /* HealthStoreConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003DD17F1ADC21F100D65B56 /* HealthStoreConstant.swift */; };
 		004BDBB61AD2163D00DE0E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BDBB51AD2163D00DE0E1A /* AppDelegate.swift */; };
 		004BDBB91AD2163D00DE0E1A /* FoodTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 004BDBB71AD2163D00DE0E1A /* FoodTracker.xcdatamodeld */; };
 		004BDBBB1AD2163D00DE0E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BDBBA1AD2163D00DE0E1A /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 		003DD17A1AD701CF00D65B56 /* USDAItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USDAItem.swift; sourceTree = "<group>"; };
 		003DD17C1ADC18E700D65B56 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		003DD17E1ADC18E700D65B56 /* FoodTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FoodTracker.entitlements; sourceTree = "<group>"; };
+		003DD17F1ADC21F100D65B56 /* HealthStoreConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthStoreConstant.swift; sourceTree = "<group>"; };
 		004BDBB01AD2163D00DE0E1A /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		004BDBB41AD2163D00DE0E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		004BDBB51AD2163D00DE0E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		004BDBA71AD2163D00DE0E1A = {
 			isa = PBXGroup;
 			children = (
+				003DD17F1ADC21F100D65B56 /* HealthStoreConstant.swift */,
 				003DD17C1ADC18E700D65B56 /* HealthKit.framework */,
 				004BDBB21AD2163D00DE0E1A /* FoodTracker */,
 				004BDBCB1AD2163D00DE0E1A /* FoodTrackerTests */,
@@ -242,6 +245,7 @@
 				003DD17B1AD701CF00D65B56 /* USDAItem.swift in Sources */,
 				004BDBB61AD2163D00DE0E1A /* AppDelegate.swift in Sources */,
 				004BDBD91AD2179F00DE0E1A /* DetailViewController.swift in Sources */,
+				003DD1801ADC21F100D65B56 /* HealthStoreConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
